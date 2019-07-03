@@ -1,10 +1,3 @@
-<%-- 
-    Document   : index.jsp
-    Created on : 17-03-2019, 23:32:20
-    Author     : The_n
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,33 +8,43 @@
     </head>
     <body>
         <header>
+            <div class="img-background-top">
+                <img src="images/Fondo1.png"/>
+                <div class="text">
+                    <h2>El querer plasmar en tu cuerpo tus
+                emociones es el deseo perfecto</h2>
+                </div>
+            </div>
             <a href="#"><img class="logo" src="images/Logo.png"></a>
             <input type="checkbox" id="btn-menu">
             <label for="btn-menu"><img src="images/MenuLateral.png" alt=""/></label>
             <nav class="menu">
                 <ul>
                     <li><a href="#">Perfil</a></li>
-                    <li class="submenu"><a href="#">Categor√≠as<img src="images/FlechaAbajo.ico" alt=""/></a>
-                            <ul>
-                                <li><a href="#">BlackWork</a></li>
-                                <li><a href="#">Geom√©tricos</a></li>
-                                <li><a href="#">DotWork</a></li>
-                                <li><a href="#">TrashPolka</a></li>
-                                <li><a href="#">Hiperrealismo</a></li>
-                                <li><a href="#">Realismo Abstracto</a></li>
-                                <li><a href="#">Biomec√°nico</a></li>
-                                <li><a href="#">WaterColor</a></li>
-                                <li><a href="#">OldSchool</a></li>
-                                <li><a href="#">Neo Tradicional</a></li>
-                                <li><a href="#">New School</a></li>
-                                <li><a href="#">Japones</a></li>
-                            </ul>
+                    <li class="submenu"><a href="#">CategorÌas<img src="images/FlechaAbajo.ico" alt=""/></a>
+                        <ul>
+                            <li><a href="#">BlackWork</a></li>
+                            <li><a href="#">GeomÈtricos</a></li>
+                            <li><a href="#">DotWork</a></li>
+                            <li><a href="#">TrashPolka</a></li>
+                            <li><a href="#">Hiperrealismo</a></li>
+                            <li><a href="#">Realismo Abstracto</a></li>
+                            <li><a href="#">Biomec·nico</a></li>
+                            <li><a href="#">WaterColor</a></li>
+                            <li><a href="#">OldSchool</a></li>
+                            <li><a href="#">Neo Tradicional</a></li>
+                            <li><a href="#">New School</a></li>
+                            <li><a href="#">Japones</a></li>
+                        </ul>
                     </li>
                     <li><a href="#">Salir</a></li>
                 </ul>
             </nav>
+            
         </header>
-        <script src="menu.js"></script>
-        <!--<img src="Proyect Web Page Tattoo.png" id="Proyect Web Page Tattoo.png" /> -->
-    </body>
+
+    </div>
+    <script src="menu.js"></script>
+    <!--<img src="Proyect Web Page Tattoo.png" id="Proyect Web Page Tattoo.png" /> -->
+</body>
 </html>
